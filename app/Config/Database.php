@@ -32,10 +32,10 @@ class Database extends Config
      */
     public $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'foodordering',
+        'hostname' => 'ec2-44-194-201-94.compute-1.amazonaws.com',
+        'username' => 'mcfivxkcqxyuxh',
+        'password' => '04873e83f6a6d13410dcb02f1b33ba8158c5a50228a709f8b594680795758421',
+        'database' => 'dd82avqjlg4098',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
@@ -47,7 +47,7 @@ class Database extends Config
         'compress' => false,
         'strictOn' => false,
         'failover' => [],
-        'port'     => 3306,
+        'port'     => 5432,
     ];
 
     /**
