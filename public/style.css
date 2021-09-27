@@ -1,0 +1,23 @@
+.fo-header{
+	background-color: #b1e0b1;
+	width: 100%;
+	padding: 0px 10px 0px 10px;
+	height: 65px;
+	padding-top: 12px;
+}
+.fo-welcome-user{
+	float: right;
+    text-align: right;
+    padding-right: 5px;
+}
+.bt-sucess{    
+	color: black !important;
+    background-color: #b1e0b1 !important;
+    border-color: #b1e0b1 !important;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: black !important;
+    background-color: #e6e6e6 !important;
+    border-color: #e6e6e6 !important;
+}
